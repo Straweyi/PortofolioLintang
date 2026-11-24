@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>CV - Lintang Arbi Suto</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", Arial, sans-serif; background: #ddd; color: #111; }
+  .page { width: 210mm; min-height: 297mm; margin: 0 auto; background: #fff; display: grid; grid-template-columns: 68mm 1fr; }
+  aside { background: #111; color: #f2f2f2; padding: 16mm 8mm; }
+  main { padding: 16mm 12mm; }
+  h1 { font-size: 26pt; line-height: 1.1; letter-spacing: -0.5px; }
+  .role { margin-top: 3mm; font-size: 10pt; letter-spacing: 3px; color: #555; }
+  h2 { font-size: 10pt; letter-spacing: 3px; text-transform: uppercase; margin: 8mm 0 3mm; padding-bottom: 1.5mm; border-bottom: 1.5px solid currentColor; }
+  aside h2:first-child { margin-top: 0; }
+  aside p, aside li { font-size: 9pt; line-height: 1.6; word-break: break-word; }
+  aside ul { list-style: none; }
+  aside li::before { content: "+ "; opacity: .6; }
+  .summary { font-size: 10pt; line-height: 1.6; margin-top: 8mm; }
+  .project { margin-bottom: 6mm; }
+  .project h3 { font-size: 11pt; display: flex; justify-content: space-between; }
+  .project h3 span { font-weight: 400; color: #777; font-size: 9pt; }
+  .type { font-size: 8pt; letter-spacing: 2px; text-transform: uppercase; color: #777; margin: 1mm 0; }
+  .project p { font-size: 9.5pt; line-height: 1.55; }
+  .tags { margin-top: 1.5mm; font-size: 8.5pt; color: #333; }
+  .tags span { display: inline-block; border: 1px solid #111; padding: 0.5mm 2mm; margin: 0 1mm 1mm 0; }
+  a { color: inherit; }
+  @media print { body { background: none; } .page { margin: 0; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <aside>
+    <h2>Kontak</h2>
+    <p>lintangas21@gmail.com</p>
+    <p>Jakarta, Indonesia</p>
+    <p>Lahir: 19 Agustus 2006</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Next.js</li><li>React</li><li>TypeScript</li><li>Tailwind CSS</li>
+      <li>Node.js</li><li>MongoDB</li><li>PHP</li><li>Laravel</li>
+      <li>Figma</li><li>Git / GitHub</li>
+    </ul>
+
+    <h2>Fokus</h2>
+    <ul><li>Antarmuka ekspresif</li><li>Motion &amp; interaksi</li><li>Aksesibilitas</li><li>Performa web</li></ul>
+  </aside>
+
+  <main>
+    <h1>LINTANG<br>ARBI SUTO</h1>
+    <div class="role">FULLSTACK DEVELOPER</div>
+    <p class="summary">Fullstack developer yang berfokus pada antarmuka ekspresif, motion yang matang, dan produk yang nyaman digunakan. Bekerja di antara desain dan engineering, dengan perhatian pada ritme visual, aksesibilitas, performa, dan detail kecil. Berpengalaman membangun platform edukasi, booking, dan company website dengan React dan Next.js.</p>
+
+    <h2>Proyek Terpilih</h2>
+
+    <div class="project">
+      <h3>MOOD <span>2024</span></h3>
+      <div class="type">Education Platform</div>
+      <p>Mathematics Operation Online Development: web belajar operasi bilangan untuk siswa SD dengan materi interaktif, latihan soal, dan fitur latihan berbantuan AI bertema ramah lingkungan.</p>
+      <div class="tags"><span>Next.js</span><span>TypeScript</span><span>Tailwind</span><span>AI</span></div>
+      <div class="tags"><a href="https://mini-project-alterra-msib-7.vercel.app">mini-project-alterra-msib-7.vercel.app</a></div>
+    </div>
+
+    <div class="project">
+      <h3>Straweyi Hub <span>2025</span></h3>
+      <div class="type">Booking Platform</div>
+      <p>Platform workshop kerajinan tangan (crochet, knitting, amigurumi, macramé): lihat jadwal, harga, lokasi, dan sisa kursi, lalu booking dalam semenit tanpa akun, dengan tampilan kartu dan kalender.</p>
+      <div class="tags"><span>React</span><span>TypeScript</span><span>Vite</span></div>
+      <div class="tags"><a href="https://workshophub-seven.vercel.app">workshophub-seven.vercel.app</a></div>
+    </div>
+
+    <div class="project">
+      <h3>SH Support <span>2025</span></h3>
+      <div class="type">Company Website</div>
+      <p>Website HS Support Group untuk jasa cuci dan pasang AC, home cleaning, teknisi rumah tangga, serta tennis coaching, lengkap dengan harga transparan, testimoni, FAQ, dan pemesanan via WhatsApp.</p>
+      <div class="tags"><span>Next.js</span><span>TypeScript</span><span>SEO</span></div>
+      <div class="tags"><a href="https://hsservicegroup.vercel.app">hsservicegroup.vercel.app</a></div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
